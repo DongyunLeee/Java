@@ -1,0 +1,12 @@
+package chapter01;
+
+public class _06_Constants {
+    public static void main(String[] args) {
+        // 변하지 않는 상수는 final을 사용하며 대문자로 표현
+        final String KR_COUNTRY_CODE = "+82"; // 국가 번호
+//        KR_COUNTRY_CODE = "+8282";
+        System.out.println(KR_COUNTRY_CODE);
+
+        final double PI = 3.14; // 원주율
+    }
+}
